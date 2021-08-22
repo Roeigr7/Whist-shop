@@ -1,0 +1,32 @@
+.stats-container {
+  flex-wrap: wrap;
+  padding-top: 20px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px;
+}
+
+.row-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.stats-item-container {
+  flex: 0 0 30%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.stats-title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .stats-item-container {
+    flex: 0 0 90%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+    padding: 5px;
+  }
+}

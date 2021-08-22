@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0ec280;
+  padding: 10px;
+}
+
+.nav-link {
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover {
+  margin: 0 5px;
+  color: white;
+  text-decoration: underline;
+}
+.nav-link:active {
+  margin: 0 5px;
+  color: white;
+  text-decoration: underline;
+}

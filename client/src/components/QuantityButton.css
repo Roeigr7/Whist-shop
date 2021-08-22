@@ -1,0 +1,38 @@
+.value-button {
+  display: inline-block;
+  border: 1px solid #04aa6d;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  padding: 6px 0;
+  background: #04aa6d;
+  color: white;
+}
+
+.value-button:hover {
+  cursor: pointer;
+  background: #0ec280;
+  color: white;
+}
+.value-button:active {
+  cursor: pointer;
+  background: #04aa6d;
+  color: white;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-container {
+  border: 1px solid #04aa6d;
+  text-align: center;
+  width: 50%;
+  height: 30px;
+}
+
+.quantity-container {
+  display: flex;
+  justify-content: center;
+}
